@@ -1,0 +1,79 @@
+<html>
+<head>
+<title>bicicletas on Line</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<header>
+<h1>bicicletas on Line</h1>
+<nav>
+<div>
+<div><a href="index.html">Inicio</a></div>
+<div><a href="productos.html">Bicicletas</a></div>
+<div><a href="#accesorios">Accesorios</a></div>
+<div><a href="contacto.html">Contacto</a></div>
+<div><a href="registro.html">Registro</a></div>
+<div>
+<button class="cart-button" onclick="showCart()">Carrito </button>
+</div>
+
+<script>
+function showCart() {
+document.getElementById("cart").style.display = "block";
+}
+</script>
+
+</div>
+
+</nav>
+</header>
+
+<main>
+
+<section id="banner">
+<h2>Bienvenidos a nuestra página de bicicletas</h2>
+<p>Encuentra la bicicleta perfecta para ti</p>
+<a href="infoproducto.html" class="button">Ver más</a>
+</section>
+
+<section id="bicicletas">
+<h2>Nuestras bicicletas</h2>
+<article>
+<img src="img/bicicleta1-7.jpg" alt="bicicleta1">
+<h3>Bicicleta de montaña</h3>
+<p>La bicicleta de montaña es un tipo de bicicleta diseñada para su uso en terrenos irregulares e impredecibles.. </p>
+<a href="infoproducto.html" class="button">Ver más</a>
+</article>
+<article>
+<img src="img/bicicleta2-3.jpg" alt="bicicleta2">
+<h3>Bicicleta de carrera</h3>
+<p>Una bicicleta de carrera es un tipo de bicicleta diseñada para uso en carreteras y competiciones de ciclismo. Tienen un cuadro ligero y aerodinámico. </p>
+<a href="infoproducto.html" class="button">Ver más</a>
+</article>
+<article>
+<img src="img/bicicleta3-3.jpg" alt="bicicleta3">
+<h3>Bicicleta plegable</h3>
+<p>Una bicicleta plegable es un tipo de bicicleta que se puede plegar para facilitar su almacenamiento y transporte. Su diseño compacto permite guardarla en espacios pequeños. </p>
+<a href="infoproducto.html" class="button">Ver más</a>
+</article>
+</section>
+
+<section id="accesorios">
+<h2>Nuestros accesorios</h2>
+<ul>
+<li><img src="img/accesorio1.jpg" alt="accesorio1"><a href="#">Cascos</a></li>
+<li><img src="img/accesorio2.jpg" alt="accesorio2"><a href="#">Luces</a></li>
+<li><img src="img/accesorio3.jpg" alt="accesorio3"><a href="#">Bolsas</a></li>
+<li><img src="img/accesorio4.jpg" alt="accesorio4"><a href="#">Portabicicletas</a></li>
+</ul>
+</section>
+
+
+</main>
+
+
+<footer>
+<p>Todos los derechos reservados © 2023</p>
+</footer>
+</body>
+</html>

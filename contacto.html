@@ -1,0 +1,53 @@
+<html>
+<head>
+<title>bicicletas on Line - Contacto</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<header>
+<h1>bicicletas on Line</h1>
+<nav>
+<div>
+    <div><a href="index.html">Inicio</a></div>
+    <div><a href="productos.html">Bicicletas</a></div>
+    <div><a href="#accesorios">Accesorios</a></div>
+    <div><a href="contacto.html">Contacto</a></div>
+    <div><a href="registro.html">Registro</a></div>
+
+<div>
+<button class="cart-button" onclick="showCart()">Carrito </button>
+</div>
+
+<script>
+function showCart() {
+document.getElementById("cart").style.display = "block";
+}
+</script>
+
+</div>
+
+</nav>
+</header>
+<section id="contacto">
+    <h2>Contacto</h2>
+    <form>
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required>
+    
+    <label for="correo">Correo electrónico:</label>
+    <input type="email" id="correo" name="correo" required>
+    
+    <label for="mensaje">Mensaje:</label>
+    <textarea id="mensaje" name="mensaje" required></textarea>
+    
+    <button type="submit" class="button">Enviar</button>
+    </form>
+    </section>
+
+
+    <footer>
+        <p>Todos los derechos reservados © 2023</p>
+        </footer>
+        </body>
+          
+        </html>    

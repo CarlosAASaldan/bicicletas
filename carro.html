@@ -1,0 +1,102 @@
+<html>
+<head>
+<title>bicicletas on Line - Carro </title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<header>
+<h1>bicicletas on Line</h1>
+<nav>
+<div>
+    <div><a href="index.html">Inicio</a></div>
+    <div><a href="productos.html">Bicicletas</a></div>
+    <div><a href="#accesorios">Accesorios</a></div>
+    <div><a href="contacto.html">Contacto</a></div>
+    <div><a href="registro.html">Registro</a></div>
+<div>
+<button class="cart-button" onclick="showCart()">Carrito </button>
+</div>
+
+<script>
+function showCart() {
+document.getElementById("cart").style.display = "block";
+}
+</script>
+
+</div>
+
+</nav>
+</header>
+
+<main>
+
+            <section class="cart">
+                <div class="cart-item">
+                <img src="img/bicicleta3-1.jpg" alt="Bicicleta plegable">
+                <div class="item-details">
+                <p class="item-name">Bicicleta plegable</p>
+                <p class="item-price">$120000</p>
+                <div class="item-counter">
+                <button class="minus-btn">-</button>
+                <p class="item-count">1</p>
+                <button class="plus-btn">+</button>
+                </div>
+                <button class="remove-btn">Eliminar</button>
+                </div>
+                </div>
+                
+                <div class="cart-item">
+                <img src="img/bicicleta1-2.jpg" alt="Bicicleta de montaña">
+                <div class="item-details">
+                <p class="item-name">Bicicleta de montaña</p>
+                <p class="item-price">$41080</p>
+                <div class="item-counter">
+                <button class="minus-btn">-</button>
+                <p class="item-count">1</p>
+                <button class="plus-btn">+</button>
+                </div>
+                <button class="remove-btn">Eliminar</button>
+                </div>
+                </div>
+                
+                <div class="cart-item">
+                <img src="img/bicicleta4-4.jpg" alt="Bicicleta 3">
+                <div class="item-details">
+                <p class="item-name">Bicicleta de niños</p>
+                <p class="item-price">$25000</p>
+                <div class="item-counter">
+                <button class="minus-btn">-</button>
+                <p class="item-count">1</p>
+                <button class="plus-btn">+</button>
+                </div>
+                <button class="remove-btn">Eliminar</button>
+                </div>
+                </div>
+                
+                <div class="cart-item">
+                <img src="img/bicicleta2-1.jpg" alt="Bicicleta 4">
+                <div class="item-details">
+                <p class="item-name">Bicicleta de carrera</p>
+                <p class="item-price">$130000</p>
+                <div class="item-counter">
+                <button class="minus-btn">-</button>
+                <p class="item-count">1</p>
+                <button class="plus-btn">+</button>
+                </div>
+                <button class="remove-btn">Eliminar</button>
+                </div>
+                </div>
+                
+                <button class="confirm-btn">Confirmar Compra</button>
+                <button class="boton-volver">Volver</button>
+                </section>
+
+
+</main>
+
+
+<footer>
+<p>Todos los derechos reservados © 2023</p>
+</footer>
+</body>
+</html>
